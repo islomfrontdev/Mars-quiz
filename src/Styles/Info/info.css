@@ -18,6 +18,10 @@
   margin: 10px 0;
 }
 
+.quizBox:hover {
+  background-color: #f2f2f2;
+}
+
 .quizBox .quizFooter {
   display: flex;
   justify-content: space-between;
