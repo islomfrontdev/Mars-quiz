@@ -1,0 +1,62 @@
+@import "../Variables/Variables.scss";
+.asideWrapper {
+  background-color: $blueColor;
+  padding: 30px 20px;
+  min-height: 100vh;
+
+  .createQuizBtn {
+    background-color: #fff;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    margin-top: 30px;
+    color: $blueColor;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    transition: 0.3s all ease-in-out;
+    &:hover {
+      transform: scale(1.07);
+    }
+    span {
+      background-color: $blueColor;
+      color: #fff;
+      padding: 7px 10px;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  nav {
+    margin-top: 60px;
+    ul {
+      list-style-type: none;
+      li {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        gap: 15px;
+        color: #fff;
+        padding: 10px 0;
+        border-radius: 5px;
+        transition: $transition;
+        margin: 10px 0;
+        &:hover {
+          background-color: $darkBlue;
+          transform: $scale;
+          padding-left: 15px;
+        }
+        a {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+.logo {
+  width: 200px;
+}

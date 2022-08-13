@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.searchBox {
+  width: 150px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.203);
+  border-radius: 5px;
+  transition: 0.3s all ease-in-out;
+}
+
+.searchBox:hover {
+  width: 300px;
+}
+
+.searchBox button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.searchBox input {
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.quizWrapper {
+  padding: 20px 0;
+}
+
+.quizBoxWrapper {
+  margin-top: 20px;
+}
+
+.quizBoxWrapper .quizBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quizBoxWrapper .quizBox .quizCard {
+  width: 200px;
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.225);
+  overflow: hidden;
+  color: #888;
+  border-radius: 10px;
+}
+
+.quizBoxWrapper .quizBox img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.quizBoxWrapper .quizBox button {
+  background-color: transparent;
+  border: none;
+  color: #4788ff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.quizBoxWrapper .quizBox .quizCardPlayBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=Quiz.css.map */

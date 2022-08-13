@@ -1,0 +1,70 @@
+.asideWrapper {
+  background-color: #4788ff;
+  padding: 30px 20px;
+  min-height: 100vh;
+}
+
+.asideWrapper .createQuizBtn {
+  background-color: #fff;
+  border: none;
+  padding: 10px 0;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 180px;
+  margin-top: 30px;
+  color: #4788ff;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  transition: 0.3s all ease-in-out;
+}
+
+.asideWrapper .createQuizBtn:hover {
+  transform: scale(1.07);
+}
+
+.asideWrapper .createQuizBtn span {
+  background-color: #4788ff;
+  color: #fff;
+  padding: 7px 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.asideWrapper nav {
+  margin-top: 60px;
+}
+
+.asideWrapper nav ul {
+  list-style-type: none;
+}
+
+.asideWrapper nav ul li {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+  color: #fff;
+  padding: 10px 0;
+  border-radius: 5px;
+  transition: 0.3s all ease-in-out;
+  margin: 10px 0;
+}
+
+.asideWrapper nav ul li:hover {
+  background-color: #2e72ed;
+  transform: scale(1.01);
+  padding-left: 15px;
+}
+
+.asideWrapper nav ul li a {
+  color: #fff;
+}
+
+.logo {
+  width: 200px;
+}
+/*# sourceMappingURL=aside.css.map */
