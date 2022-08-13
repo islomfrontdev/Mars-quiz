@@ -2,6 +2,7 @@
   background-color: #4788ff;
   padding: 30px 20px;
   min-height: 100vh;
+  height: 100%;
 }
 
 .asideWrapper .createQuizBtn {
