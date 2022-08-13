@@ -1,0 +1,40 @@
+.blueLine {
+  width: 150px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: blue;
+  margin: 5px 0;
+}
+
+.infoWrapper {
+  padding: 20px 0;
+}
+
+.quizBox {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.quizBox .quizFooter {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+  padding: 2px 5px;
+  width: 100px;
+}
+
+.quizBox .quizFooter p {
+  font-size: 14px;
+}
+
+.quizBox .quizCountBox {
+  background-color: #d46b31;
+  background-position: center;
+  border-radius: 5px;
+  padding: 5px;
+  color: #fff;
+}
+/*# sourceMappingURL=info.css.map */
