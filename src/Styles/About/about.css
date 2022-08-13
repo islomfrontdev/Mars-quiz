@@ -1,0 +1,41 @@
+.aboutTitle {
+  color: #2e5da0;
+  font-size: 50px;
+}
+
+.aboutText {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.readBtn {
+  background-color: #2e5da0;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.readBtn:hover {
+  transform: scale(1.1);
+}
+
+.aboutTopImg {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.aboutImg {
+  animation: imgAnime 2s linear infinite;
+}
+
+@keyframes imgAnime {
+  50% {
+    transform: translateY(-10px);
+  }
+}
+/*# sourceMappingURL=about.css.map */

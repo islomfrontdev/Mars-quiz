@@ -1,13 +1,18 @@
 import "./App.css";
 import Layout from "./components/Layout";
 import "./Styles/MainStyles/mainStyles.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import Quiz from "./components/Main/Quiz";
 import Dashboard from "./components/Main/Dashboard";
 import Users from "./components/Main/Users";
 import About from "./components/Main/About";
 import Contacts from "./components/Main/Contacts";
+import { useEffect } from "react";
 function App() {
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("/dashboard");
+  }, []);
   return (
     <div>
       <Routes>
