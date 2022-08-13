@@ -1,0 +1,86 @@
+.contactWrapper {
+  background-image: url(https://www.mmppicture.co.in/wp-content/uploads/2018/11/Milky-Big-Moon-Night-Background-Free-Stock.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+  margin-left: -20px;
+  .flex {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    a {
+      color: #fff;
+    }
+  }
+  .btnPhones {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    i {
+      color: #fd7ba8;
+    }
+  }
+}
+.contactsTitle {
+  color: #fff;
+  text-align: center;
+}
+.contactFlex {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .messageBox {
+    border-radius: 20px;
+    width: 330px;
+    background-color: #fff;
+    padding: 10px 0;
+  }
+}
+.messageFlex {
+  display: flex;
+  background-color: #f8f8f8;
+  width: 90%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 5px;
+  gap: 10px;
+  input,
+  textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+}
+.sendBtn {
+  background-color: #8fd22a;
+  display: block;
+  width: 90%;
+  border: none;
+  margin: 20px auto 0;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5;
+  letter-spacing: 3px;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.phonesBox {
+  color: #fff;
+}
+.line {
+  width: 200px;
+  height: 2px;
+  border-radius: 5px;
+  background-color: #999;
+}

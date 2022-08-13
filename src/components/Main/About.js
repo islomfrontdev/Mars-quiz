@@ -9,12 +9,12 @@ export default function About() {
         height: "100vh",
         display: "flex",
         alignItems: "center",
-        padding: 2,
-        marginLeft: -2,
         backgroundImage:
           "url(https://cdn.mos.cms.futurecdn.net/kCbvedK262UGLXCLFeW5oS.jpg)",
         backgroundSize: "cover",
         backgroundRepeat: "no-repeat",
+        padding: 2,
+        marginLeft: -2,
       }}
     >
       <Grid container spacing={2}>
