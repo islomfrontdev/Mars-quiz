@@ -1,0 +1,28 @@
+.homeWrapper {
+  background-color: #46178f;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeWrapper .usenameBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.homeWrapper .usenameBox input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.homeWrapper .usenameBox button {
+  width: 100px;
+  padding: 10px 0;
+  cursor: pointer;
+}
+/*# sourceMappingURL=userGame.css.map */

@@ -10,6 +10,7 @@ import Contacts from "./components/Main/Contacts";
 import { useEffect } from "react";
 import PinCode from "./Pages/Gaming/PinCode";
 import Gaming from "./Pages/Gaming/Gaming";
+import UserGame from "./Pages/UserGame/UserGame";
 function App() {
   const navigate = useNavigate();
   useEffect(() => {
@@ -27,6 +28,7 @@ function App() {
         </Route>
         <Route path="pincode/:id" element={<PinCode />} />
         <Route path="gaming/:id" element={<Gaming />} />
+        <Route path="game" element={<UserGame />} />
       </Routes>
     </div>
   );

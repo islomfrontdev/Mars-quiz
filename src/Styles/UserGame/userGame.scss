@@ -1,0 +1,24 @@
+.homeWrapper {
+  background-color: #46178f;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .usenameBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    input {
+      border: none;
+      outline: none;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    button {
+      width: 100px;
+      padding: 10px 0;
+      cursor: pointer;
+    }
+  }
+}

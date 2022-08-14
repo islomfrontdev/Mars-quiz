@@ -40,6 +40,9 @@ export default function Aside() {
             <BsFillTelephoneFill size={24} />{" "}
             <Link to={"contacts"}>Contacts</Link>
           </li>
+          <li>
+            <Link to={"game"}>Game</Link>
+          </li>
         </ul>
       </nav>
     </div>
