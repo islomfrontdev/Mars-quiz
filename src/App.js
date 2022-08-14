@@ -8,10 +8,11 @@ import Users from "./components/Main/Users";
 import About from "./components/Main/About";
 import Contacts from "./components/Main/Contacts";
 import { useEffect } from "react";
+import Gaming from "./Pages/Gaming/Gaming";
 function App() {
   const navigate = useNavigate();
   useEffect(() => {
-    navigate("/dashboard");
+    navigate("/quiz");
   }, []);
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
           <Route path="about" element={<About />} />
           <Route path="contacts" element={<Contacts />} />
         </Route>
+        <Route path="gaming/:id" element={<Gaming />} />
       </Routes>
     </div>
   );
