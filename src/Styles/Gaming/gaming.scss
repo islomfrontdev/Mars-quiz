@@ -1,0 +1,92 @@
+.gameHeader {
+  background-color: #25076b;
+  padding: 30px 0;
+  .pinBox {
+    background-color: #fff;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
+.gameWrapper {
+  height: 100vh;
+  overflow: hidden;
+}
+.gameBody {
+  display: flex;
+  justify-content: space-around;
+  background-color: #46178f;
+  height: 80vh;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  .gameBodyBox1 {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background-color: #3f1581;
+    transform: rotate(35deg);
+    left: -300px;
+    top: 100px;
+    animation: boxanim1 4s linear infinite;
+  }
+  .gameBodyBox2 {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: #3f1581;
+    transform: rotate(35deg);
+    right: -200px;
+    top: 150px;
+    animation: boxanim2 4s linear infinite;
+  }
+
+  .userNumberox {
+    background-color: #1f0a40;
+    color: #fff;
+    width: 100px;
+    height: 60px;
+    display: flex;
+    font-size: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5px;
+  }
+  .flex {
+    display: flex;
+    gap: 10px;
+    margin-top: 100px;
+    .userBox {
+      background-color: #1f0a40;
+      padding: 5px 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      :hover {
+        text-decoration: line-through;
+        color: #888;
+      }
+    }
+  }
+  .startGameBtn {
+    background-color: #cccccc;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+@keyframes boxanim1 {
+  50% {
+    left: -250px;
+  }
+}
+@keyframes boxanim2 {
+  50% {
+    right: -250px;
+  }
+}
