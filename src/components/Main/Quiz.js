@@ -43,7 +43,7 @@ export default function Quiz() {
                 </div>
               </div>
               <div className="quizBtnBox">
-                <NavLink to={`/gaming/${q.id}`}>
+                <NavLink to={`/pincode/${q.id}`}>
                   <button className="startBtn">
                     <AiFillPlayCircle color="blue" />
                   </button>

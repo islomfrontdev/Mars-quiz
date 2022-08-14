@@ -12,8 +12,7 @@ export default function Aside() {
   return (
     <div className="asideWrapper">
       <div className="logoBox">
-        <NavLink className="logoLink" to={"/"}>
-          {/* <FaHtml5 /> Islomfrontdev */}
+        <NavLink className="logoLink" to={"/dashboard"}>
           <img className="logo" src={Mars} />
         </NavLink>
       </div>

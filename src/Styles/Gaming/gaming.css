@@ -9,6 +9,7 @@
   margin: 0 auto;
   text-align: center;
   border-radius: 10px;
+  padding: 10px 0;
 }
 
 .gameWrapper {
@@ -100,5 +101,117 @@
   50% {
     right: -250px;
   }
+}
+
+.questionWrapper {
+  background-color: #f2f2f2;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.questionWrapper .nextBtn {
+  float: right;
+  margin-top: 20px;
+  background-color: #25076b;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.questionWrapper .questionImg {
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin: 30px auto;
+  margin-bottom: 150px;
+}
+
+.questionHeaderBox {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.answerFlex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  background-color: #e21b3c;
+  font-size: 24px;
+  border-radius: 5px;
+}
+
+.resultWrapper {
+  background-color: #25076b;
+  height: 100vh;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.resultTitle {
+  background-color: #fff;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 5px;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.5);
+}
+
+.homeLink {
+  background-color: #1368ce;
+  float: right;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.result {
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background: #dbff00;
+  box-shadow: 0px 4px 50px #dbff00;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.resultsFlex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 80vh;
+}
+
+.resultsFlex div {
+  width: 200px;
+  background: #864cbf;
+  box-shadow: 0px 4px 50px #000000;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.top2 {
+  height: 300px;
+}
+
+.top1 {
+  height: 400px;
+}
+
+.top3 {
+  height: 250px;
 }
 /*# sourceMappingURL=gaming.css.map */

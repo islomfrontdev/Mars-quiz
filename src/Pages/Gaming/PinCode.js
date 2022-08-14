@@ -1,5 +1,5 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { quiz } from "../../Data";
 import "../../Styles/Gaming/gaming.css";
 import { AiOutlineUser } from "react-icons/ai";
@@ -48,7 +48,9 @@ export default function PinCode() {
           </div>
         </div>
         <div>
-          <button className="startGameBtn">Start</button>
+          <NavLink to={`/gaming/${resPath}`}>
+            <button className="startGameBtn">Start</button>
+          </NavLink>
         </div>
       </div>
     </div>
